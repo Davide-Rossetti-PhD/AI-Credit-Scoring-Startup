@@ -62,9 +62,9 @@ The model achieves:
 ### 🧩 Key Visuals
 | Visualization | Description |
 |----------------|-------------|
-| ![Confusion Matrix](./Confusion_Matrix.png) | Normalized Confusion Matrix showing per-class accuracy |
-| ![Feature Importance](./Feature_Importance.png) | Feature weights from Logistic Regression |
-| ![ROC PR Curves](./ROC_Precsion_Curves.png) | ROC and PR Curves demonstrating strong separability |
+| [Confusion Matrix] | Normalized Confusion Matrix showing per-class accuracy |
+| [Feature Importance] | Feature weights from Logistic Regression |
+| [ROC PR Curves] | ROC and PR Curves demonstrating strong separability |
 
 All detailed explanations and formulas are included in the **LaTeX technical report** under `/docs/WeTrust_Report.pdf`.
 
@@ -94,10 +94,34 @@ The **WeTrust App** provides a seamless ecosystem for migrants to send remittanc
 A complete **interactive prototype** of the WeTrust App was designed in **Figma**  
 and demonstrated via **Loom video**, later edited with **AVI Video Editor**.
 
-- 🎥 **Video Demo (Loom):** [Watch the WeTrust Demo](https://loom.com/your-demo-link-here)
-- 🎨 **Figma Prototype:** [Try the Interactive Prototype](https://figma.com/your-figma-link-here)
+- 🎥 **Video Demo (Loom):** [Watch the WeTrust Demo]
+- 🎨 **Figma Prototype:** [Try the Interactive Prototype](https://www.figma.com/proto/fEPwkDrNwq7LFiKHeiOB6O/Alpha-App-WeTrust?node-id=1-91&t=UKF1eHJ6UBGeraLm-1)
 
 ---
 
 ## 📁 Repository Structure
 
+The following repository layout is presented in **bash-style format** for clarity and visual consistency.
+
+```bash
+# Repository Structure (bash view)
+
+WeTrust/
+│
+├── Notebooks_WT/                     # Synthetic datasets and ML algorithms
+│   ├── wetrust_synthetic_dataset.csv # Generated dataset with behavioral and financial features
+│   ├── Synthetic_Generator.py        # Synthetic data generation script
+│   └── Model_WT.py                   # Credit scoring model training and evaluation
+│
+├── BancaSella_FinalReport.pdf        # Official report for the i4C Challenge with Banca Sella
+│
+├── Results_WeTrust.pdf               # Analytical results and LaTeX explanations
+│
+├── Wetrustt_final_video.mp4          # Final project demo video (Figma + Loom presentation)
+│
+├── Images/                           # Model plots and visuals for documentation
+│   ├── Confusion_Matrix.png
+│   ├── ROC_Precision_Curve.png
+│   └── Feature_Importance.png
+│
+└── README.md                         # Project documentation (this file)
