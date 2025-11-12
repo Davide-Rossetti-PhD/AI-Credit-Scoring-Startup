@@ -94,7 +94,7 @@ The **WeTrust App** provides a seamless ecosystem for migrants to send remittanc
 A complete **interactive prototype** of the WeTrust App was designed in **Figma**  
 and demonstrated via **Loom video**, later edited with **AVI Video Editor**.
 
-- 🎥 **Video Demo (Loom):** [Watch the WeTrust Demo]
+- 🎥 **Video Demo (Loom):** [Watch the WeTrust Demo](./WeTrust/Wetrustt_final_video.mp4)
 - 🎨 **Figma Prototype:** [Try the Interactive Prototype](https://www.figma.com/proto/fEPwkDrNwq7LFiKHeiOB6O/Alpha-App-WeTrust?node-id=1-91&t=UKF1eHJ6UBGeraLm-1)
 
 ---
